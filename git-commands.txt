@@ -1,0 +1,15 @@
+  328  vi testing.py
+  329  git status
+  330  mkdir sample
+  331  cd sample
+  332  git init
+  333  mv testing.py /home/swapnilpatel/sample/
+  334  cd ..
+  335  mv testing.py /home/swapnilpatel/sample/
+  336  cd sample
+  337  ls
+  338  git status
+  339  git add .
+  340  git commit -m "Added new testing.py file"
+  341  git config --global user.name "SP4400"
+  342  git commit -m "Added new testing.py file"
